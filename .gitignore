@@ -35,3 +35,8 @@ Testing/
 CMakeFiles
 Makefile
 CMakeCache.txt
+cmake-build-*
+
+
+# CLion
+.idea/*
