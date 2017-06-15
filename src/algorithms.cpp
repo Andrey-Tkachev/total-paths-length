@@ -18,6 +18,9 @@ void top_sort(G::Graph& gr, std::vector<int>& sorted,
 
 
 int count_total_paths_len(G::Graph& gr) {
+    if (gr.size() == 0) {
+        return 0;
+    }
     std::vector<int> n(gr.size()); // total lenght of paths from root
     // to children in subtree
 

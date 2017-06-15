@@ -29,6 +29,7 @@
 
 # CMake
 *.cmake
+build/
 bin/
 lib/
 Testing/
